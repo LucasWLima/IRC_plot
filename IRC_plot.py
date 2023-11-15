@@ -15,6 +15,7 @@ def E_Eh_graph(IRC_step, IRC_E_Eh):
     plt.xlabel("IRC Step")
     plt.ylabel("Energy [Eh]")
     plt.tight_layout()
+    plt.grid()
     plt.show()
 def dE_Eh_graph(IRC_step, IRC_E_Eh):
     """
@@ -28,6 +29,7 @@ def dE_Eh_graph(IRC_step, IRC_E_Eh):
     plt.xlabel("IRC Step")
     plt.ylabel("Relative Energy [Eh]")
     plt.tight_layout()
+    plt.grid()
     plt.show()
 def dE_kcal_graph(IRC_step, IRC_E_Eh):
     """
@@ -41,6 +43,7 @@ def dE_kcal_graph(IRC_step, IRC_E_Eh):
     plt.xlabel("IRC Step")
     plt.ylabel("Relative Energy [kcal/mol]")
     plt.tight_layout()
+    plt.grid()
     plt.show()
 def dE_kJ_graph(IRC_step, IRC_E_Eh):
     """
@@ -54,6 +57,7 @@ def dE_kJ_graph(IRC_step, IRC_E_Eh):
     plt.xlabel("IRC Step")
     plt.ylabel("Relative Energy [kJ/mol]")
     plt.tight_layout()
+    plt.grid()
     plt.show()
 
 # Parser creation
