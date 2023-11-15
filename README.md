@@ -1,9 +1,9 @@
 # IRC_plot
-Plot the IRC graph from ORCA calculations. 
-Usage:
-$ python3 IRC_plot.py [-h] [--Eh] [--dEh] [--dkcal] [--dkJ] fname
-
 IRC plot generator for ORCA jobs.
+
+Usage:
+
+$ python3 IRC_plot.py [-h] [--Eh] [--dEh] [--dkcal] [--dkJ] fname
 
 positional arguments:
   fname       Output file
